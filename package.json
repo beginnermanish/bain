@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test":"mocha test.js --timeout 15000",
+    "test": "mocha test.js --timeout 15000",
     "build": "webpack --config webpack.config.production.js --progress --colors --define process.env.NODE_ENV='\"production\"'"
   },
   "devDependencies": {
@@ -38,6 +38,7 @@
     "mocha": "^4.0.1",
     "moment": "^2.19.2",
     "mongoose": "^4.6.3",
+    "mongoose-double": "0.0.1",
     "morgan": "^1.7.0",
     "react": "^15.0.1",
     "react-addons-css-transition-group": "^15.4.2",
